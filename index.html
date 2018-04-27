@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>pocketBunpo</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="css/superDuper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="superHeader">
+      <button class="superHeaderText">文・単文</button>
+    </div>
+
+    <div class="superContent">
+      <div class="superTextArea">
+        <textarea autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="英文を入力" class="superTextAreaChild"></textarea>
+      </div>
+      <div class="suggestionPort">
+        <span class="greyColor">提案</span>
+      </div>
+    </div>
+
+    <div class="superBottomMenu">
+      <button id="shortSentenceBtn" class="superBottomBtn" onclick="selectMode('short')" disabled>
+        <i class="fa fa-pencil-square-o"></i>
+      </button>
+      <button id="longSentenceBtn" class="superBottomBtn" onclick="selectMode('long')">
+        <i class="fa fa fa-file-o"></i>
+      </button>
+    </div>
+
+    <!--scripts-->
+    <script src="js/ui.js"></script>
+    <script src="js/gram.js"></script>
+  </body>
+</html>
