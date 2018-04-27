@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background: #faf9fa;
+  font-family: 'Fira Sans Light',sans-serif;
+  font-weight: 300;
+}
+.superHeader {
+  font-weight: 500;
+  background: #fff;
+  box-shadow: 0 0px 20px #e5e4e6, 0 0px 6px #e5e4e6;
+  min-height: 60px;
+}
+.superHeaderText {
+  font-size: 25px;
+  font-weight: bolder;
+  height: 60px;
+  background: transparent;
+  color: #010101;
+  border: none;
+  width: 50%;
+  outline: none;
+}
+.superBottomMenu {
+  background: #fff;
+  box-shadow: 0 0px 20px #e5e4e6, 0 0px 6px #e5e4e6;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+}
+
+.superBottomBtn {
+  font-size: 30px;
+  background: transparent;
+  border: none;
+  color: #c5c4c5;
+  height: 50px;
+  outline: none;
+  width: 45%;
+}
+
+.superBottomBtn:disabled {
+  color: #09f;
+}
+
+.superTextArea {
+  border-radius: 6px;
+  width: 90%;
+  padding: 10px 10px 10px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #fff;
+  height: 30vh;
+  box-shadow: 0 0px 20px #e5e4e6, 0 0px 6px #e5e4e6;
+}
+
+.superTextAreaChild {
+  border: none;
+  background: #fff;
+  width: 100%;
+  resize: none;
+  outline: none;
+  font-size: 20px;
+  height: 30vh;
+  font-weight: 300;
+}
+
+.suggestionPort {
+  background: #f9faff;
+  border-radius: 6px;
+  width: 90%;
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 30vh;
+  box-shadow: 0 0px 20px #e5e4e6, 0 0px 6px #e5e4e6;
+}
+
+.superContent {
+  margin-top: 25px;
+}
+
+.greyColor {
+  color: #757575;
+}
