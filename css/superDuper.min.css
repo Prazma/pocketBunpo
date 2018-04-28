@@ -86,3 +86,22 @@ body {
 .greyColor {
   color: #757575;
 }
+.keyboardAcc {
+  background: #f5f6f8;
+  position: absolute;
+  min-height: 50px;
+  width: 100%;
+}
+
+.pocketBtn {
+  border-radius: 50%;
+  font-size: 18px;
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+  border: none;
+  background: #09f;
+  color: #fff;
+  margin-left: 10px;
+  box-shadow: 0 0px 20px #e5e4e6, 0 0px 6px #e5e4e6;
+}
